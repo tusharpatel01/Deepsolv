@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pokedex 
 
-Currently, two official plugins are available:
+A simple Pokemon web application built for Deepsolv Frontend Developer Assignment. Users can browse Pokemon, search by name, filter by type, save favorites, and view detailed stats.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Google Login Authentication
+ Browse Pokemon with pagination (20 per page)
+ Search Pokemon by name (real-time filtering)
+ Filter Pokemon by type (Fire, Water, Grass, Electric, etc.)
+ Save favorites - each user has their own favorites
+ View Pokemon details with stats (HP, Attack, Defense, Sp. Attack, Sp. Defense, Speed)
+ View abilities and description
+ Responsive design (works on mobile, tablet, desktop)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 18
+React Router DOM 
+TailwindCSS 
+Google OAuth (@react-oauth/google)
+PokéAPI (free Pokemon API)
+
+## What You Need to Install
+
+Before running this project, make sure you have:
+
+### 1. Node.js (v18 or higher)
+Download from: https://nodejs.org/
+
+
+## clone 
+
+git clone https://github.com/your-username/pokedex-lite.git
+cd deepsolv_assignment
+
+
+
+
+## run file  
+npm i
+npm run dev
+
+
