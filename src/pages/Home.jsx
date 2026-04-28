@@ -13,6 +13,10 @@ function Home({ user }) {
           <a href="/favorites" className="bg-gray-500 text-white py-3 rounded-lg">My Favorites</a>
         </div>
       </div>
+      <div className="text-2xl p-2">
+        All functionality Implemented, thankyou For the oppportunity
+        I would love to work with you.
+      </div>
     </div>
   )
 }
